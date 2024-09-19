@@ -46,6 +46,7 @@ body {
 #imgbiscoitodasorte {
     width: 250px;
     height: 190px;
+    cursor: pointer;
 }
 
 /*screen2*/
@@ -117,5 +118,10 @@ button {
     font-weight: bold;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 
+}
+
+button:hover {
+    filter: brightness(.9);
 }
